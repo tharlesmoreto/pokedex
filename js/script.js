@@ -41,6 +41,7 @@ const renderPokemon = async pokemon => {
     pokemonName.innerHTML = 'Not found :c'
     pokemonName.style.color = '#ff0000'
     pokemonNumber.innerHTML = ''
+    pokemonImage.style.display = 'none'
     search.value = ''
   }
 }
